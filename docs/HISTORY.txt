@@ -1,0 +1,22 @@
+Changelog
+=========
+
+1.0.2 (unreleased)
+------------------
+
+- support a 'search_path' request variable to obtain data
+  or a specific section in the site. Thanks to Chenxiong Qi
+  for the patch [raphael]
+
+
+1.0.1 (2011-05-09)
+------------------
+
+- Get rid of setup.cfg
+
+
+1.0 (2011-05-09)
+----------------
+
+- Initial release
+
