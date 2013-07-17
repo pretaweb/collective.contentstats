@@ -1,4 +1,4 @@
 vmd-collective.contentstats
 ===========================
 
-for of collective.contentstats
+fork of collective.contentstats
