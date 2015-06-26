@@ -3,10 +3,10 @@ import os
 
 version = '1.0.2dev'
 
-setup(name='vmd-collective.contentstats',
+setup(name='collective.contentstats',
       version=version,
       description="A configlet for Plone showing some content statistics (type/state)",
-      long_description=open(os.path.join("vmd-collective", "contentstats", "README.txt")).read() + "\n" +
+      long_description=open(os.path.join("collective", "contentstats", "README.txt")).read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
@@ -20,7 +20,7 @@ setup(name='vmd-collective.contentstats',
       #url='http://dev.plone.org/collective/browser/collective.contentstats',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
-      namespace_packages=['vmd-collective'],
+      namespace_packages=['collective'],
       include_package_data=True,
       zip_safe=False,
       install_requires=[

@@ -18,7 +18,7 @@ class TestCase(ptc.PloneTestCase):
         def setUp(cls):
             fiveconfigure.debug_mode = True
             zcml.load_config('configure.zcml',
-                             vmd-collective.contentstats)
+                             collective.contentstats)
             fiveconfigure.debug_mode = False
 
         @classmethod
